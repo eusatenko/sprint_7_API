@@ -221,6 +221,8 @@ public class TestPraktikum {
                 .then().assertThat().statusCode(200); // проверка, что сервер вернул код 200
     }
 
+
+    // ДОБАВИТЬ ВЫТАСКИВАНИЕ ТОКЕНА ИЗ ЗАПРОСА!!!!
     @Test
     @Description ("Check auth sirigij514@24rumen.com")
     public void checkAuth() {
